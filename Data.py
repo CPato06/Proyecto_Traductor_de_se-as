@@ -7,11 +7,11 @@ import HandTracking as sm
 
 #creacion de la carpeta
 nombre = 'Letra_DDDDDDD'
-direccion = 'C:\\Users\\deadp\\Documents\\UABC\\Prueba\\Database'
+direccion = 'C:\\Users\\deadp\\Documents\\UABC\\Proyecto_Traductor_de_señas\\Database'
 carpeta = direccion + '/' + nombre
 
 #Modo entrenamiento =True, Modo solo captura = False
-train = True
+train = False
 
 #Si no esta creada la carpeta 
 if not os.path.exists(carpeta):
