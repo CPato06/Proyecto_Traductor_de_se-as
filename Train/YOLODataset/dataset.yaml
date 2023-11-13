@@ -1,0 +1,5 @@
+train: C:\Users\deadp\Documents\UABC\Prueba\Train\YOLODataset/images/train/
+val: C:\Users\deadp\Documents\UABC\Prueba\Train\YOLODataset/images/val/
+test: C:\Users\deadp\Documents\UABC\Prueba\Train\YOLODataset/images/test/
+nc: 8
+names: ["F", "D", "O", "B", "C", "G", "A", "M"]

@@ -1,0 +1,5 @@
+train: C:\Users\deadp\Documents\UABC\Prueba\Database\Letra_C\YOLODataset/images/train/
+val: C:\Users\deadp\Documents\UABC\Prueba\Database\Letra_C\YOLODataset/images/val/
+test: C:\Users\deadp\Documents\UABC\Prueba\Database\Letra_C\YOLODataset/images/test/
+nc: 1
+names: ["C"]
