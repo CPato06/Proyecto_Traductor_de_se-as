@@ -39,7 +39,7 @@ while True:
     frame = detector.encontrarmanos(frame, dibujar=False)
 
     # Posiciones de una sola mano
-    lista1, bbox, mano = detector.encontrarposicion(frame, ManoNum=0, dibujarPuntos= False, dibujarBox= False, color=[0,225,0])
+    lista1, bbox, mano = detector.encontrarposicion(frame, ManoNum=0, dibujarPuntos= True, dibujarBox= False, color=[0,225,0])
 
     # Si hay mano
     if mano == 1:
