@@ -44,8 +44,11 @@ with mp_holistic.Holistic(
           
           results
           frame = cv2.flip(frame, 1)
-          
           cv2.imshow("Frame", frame)
+          #plot: puntos de referencias y conxeciones en matplolib 3D
+          mp_drawing.plot_landmarks(
+               results.pose_world_landmarks, mp_holistic.POSE_CONNECTIONS)
+          
           if cv2.waitKey(1) & 0xFF == 27:
                break
 cap.release()
